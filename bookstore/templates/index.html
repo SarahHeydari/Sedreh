@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه کتاب</title>
+</head>
+<body>
+    <h1>فروشگاه کتاب</h1>
+    <a href="/accounts/register/">ثبت‌نام</a> |
+    <a href="/accounts/login/">ورود</a>
+
+    <h2>آخرین کتاب‌های اضافه‌شده</h2>
+         <ul>
+                {% for book in books %}
+                <li>
+                    {% if book.image %}
+                        <img src="{{ book.image.url }}" alt="{{ book.title }}" width="100">
+                    {% else %}
+                        <img src="/static/default_book.jpg" alt="تصویر پیش‌فرض" width="100">
+                    {% endif %}
+                    <br>
+                    <strong>{{ book.title }}</strong> - {{ book.price }} تومان
+                </li>
+                {% endfor %}
+
+          </ul>
+</body>
+</html>
