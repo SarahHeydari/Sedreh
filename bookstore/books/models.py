@@ -1,4 +1,4 @@
-from django.db import models
+from django.contrib.gis.db import models
 from django.conf import settings
 
 # Create your models here.
@@ -14,6 +14,13 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 
+# class county()
+#     name
+#     coordinates
+
+# class bookstores()
+#     name
+    # location
 
 class Purchase(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)

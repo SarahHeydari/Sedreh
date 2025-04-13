@@ -8,11 +8,12 @@ from .models import Book, Purchase
 from .serializers import BookSerializer
 from django.shortcuts import get_object_or_404
 
-
+# list of user's book
 class BookListView(generics.ListAPIView):
     queryset = Book.objects.filter(available=True)
     serializer_class = BookSerializer
 
+# api for return three closedt bookstore to location of user
 
 class BuyBookView(APIView):
     permission_classes = [permissions.IsAuthenticated]

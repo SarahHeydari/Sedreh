@@ -24,14 +24,15 @@ SECRET_KEY = 'django-insecure-58^p3@=5dw9r@!yj9c0spz-ulujf)07u_el2r7w%=a1)1w!xb)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+# sara ---> [] ---->['your-domain.com', 'localhost']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
-# sara ---> accounts , books , rest_framework , rest_framework_simplejwt
+# sara ---> accounts , books , rest_framework , rest_framework_simplejwt ,django.contrib.gis
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django.contrib.gis',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -68,7 +69,7 @@ ROOT_URLCONF = 'bookstore.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # مطمئن شوید که این مقدار صحیح است
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -90,8 +91,12 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'heydari_database',
+        'USER': 'sara_heydari',
+        'PASSWORD': 'sa50558094',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 # sara ---> custom user
