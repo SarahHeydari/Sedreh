@@ -1,0 +1,2732 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-14T11:01:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/713795582",
+        "name": "Shahid Beheshti University of Medical Sciences Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3965129,
+          35.7999466
+        ]
+      },
+      "id": "node/713795582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2296216079",
+        "addr:street": "ایران زمین",
+        "name": "شهر کتاب ابن سینا",
+        "name:en": "Ebne Sina Book City",
+        "shop": "books",
+        "website": "http://ebn-sina.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3800353,
+          35.7668598
+        ]
+      },
+      "id": "node/2296216079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3805714705",
+        "name": "انتشارات سروش",
+        "name:en": "Sorush Publisher",
+        "operator": "صدا و سیمای جمهوری اسلامی ایران",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.1675064,
+          35.7247101
+        ]
+      },
+      "id": "node/3805714705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3856722739",
+        "name": "شهرکتاب فرهنگ",
+        "name:en": "Farhang Book City",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4062484,
+          35.7343083
+        ]
+      },
+      "id": "node/3856722739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150763690",
+        "addr:street": "میدان نبوت",
+        "name": "شهر کتاب",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4930834,
+          35.729976
+        ]
+      },
+      "id": "node/4150763690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4165596007",
+        "addr:street": "شانزده آذر",
+        "books": "medicine",
+        "name": "انتشارات تیمورزاده",
+        "operator": "دکتر تیمورزاده",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3915177,
+          35.7069417
+        ]
+      },
+      "id": "node/4165596007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4165627692",
+        "addr:street": "دوازده فروردین",
+        "name": "انتشارات پرهام",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3944743,
+          35.7008283
+        ]
+      },
+      "id": "node/4165627692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4167224591",
+        "addr:street": "سمنگان",
+        "name": "شهر قلم",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4851526,
+          35.7229675
+        ]
+      },
+      "id": "node/4167224591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4225433492",
+        "addr:street": "میدان ملت",
+        "name": "شهر کتاب ملت",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4773595,
+          35.7549075
+        ]
+      },
+      "id": "node/4225433492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4314332390",
+        "addr:street": "عباسی",
+        "name": "تفرید",
+        "phone": "+98 21 6646 7901",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3570077,
+          35.6941128
+        ]
+      },
+      "id": "node/4314332390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344478489",
+        "name": "لوازم التحریر و کتاب اربابی",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4365056,
+          35.5873087
+        ]
+      },
+      "id": "node/4344478489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4347741789",
+        "name": "انتشارات خیلی سبز",
+        "name:en": "Kheilisabz",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3969104,
+          35.6982612
+        ]
+      },
+      "id": "node/4347741789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4353870504",
+        "name": "صبا میلاد پارسیان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3336029,
+          35.7394713
+        ]
+      },
+      "id": "node/4353870504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4359881392",
+        "name": "روزنامه دنیای اقتصاد",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4175251,
+          35.7237761
+        ]
+      },
+      "id": "node/4359881392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4418901383",
+        "name": "انتشارات چشمه",
+        "name:en": "Chaharahe Publication",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4168755,
+          35.7154318
+        ]
+      },
+      "id": "node/4418901383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4425233900",
+        "addr:housenumber": "02122394639",
+        "addr:street": "مقصودبیک/دربندی",
+        "email": "costumercare@fereshtehbookcity.com",
+        "internet_access": "wlan",
+        "name": "شهر کتاب فرشته",
+        "name:en": "Fereshteh BookCity",
+        "opening_hours": "Sa-Th 10:00-23:00; Fr 11:00-23:00",
+        "phone": "+98 21 2645 9172",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4261021,
+          35.8000163
+        ]
+      },
+      "id": "node/4425233900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4441107200",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4770743,
+          35.7447551
+        ]
+      },
+      "id": "node/4441107200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447897292",
+        "addr:housenumber": "12",
+        "name": "نمایشگاه کتاب گلزار",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3919205,
+          35.7006172
+        ]
+      },
+      "id": "node/4447897292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447964690",
+        "addr:housenumber": "9",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3920536,
+          35.7006685
+        ]
+      },
+      "id": "node/4447964690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447981189",
+        "addr:housenumber": "10",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3917886,
+          35.7005581
+        ]
+      },
+      "id": "node/4447981189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447982089",
+        "addr:housenumber": "11",
+        "addr:street": "انقلاب اسلامی",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3946048,
+          35.700819
+        ]
+      },
+      "id": "node/4447982089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4460578669",
+        "addr:street": "سهروردی شمالی",
+        "name": "کمال‌الملک",
+        "name:en": "Kamāl-al-Molk",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4366764,
+          35.7275596
+        ]
+      },
+      "id": "node/4460578669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4490703341",
+        "name": "نظری",
+        "name:en": "Nazari",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4351889,
+          35.7234716
+        ]
+      },
+      "id": "node/4490703341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511198589",
+        "addr:street": "دکتر باهنر (نیاوران)",
+        "name": "شهر کتاب نیاوران",
+        "name:en": "Niavaran Book City",
+        "opening_hours": "Mo-Su 09:00-22:30",
+        "phone": "+98 21 2228 5963",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4630107,
+          35.811982
+        ]
+      },
+      "id": "node/4511198589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4580688046",
+        "name": "شهر کتاب کاشانک",
+        "name:en": "Book City",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4821696,
+          35.8166635
+        ]
+      },
+      "id": "node/4580688046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4609292419",
+        "name": "نارنجستان بهشت",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4475618,
+          35.7587751
+        ]
+      },
+      "id": "node/4609292419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4648349583",
+        "name": "انتشارات جنگل",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.393656,
+          35.6971996
+        ]
+      },
+      "id": "node/4648349583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679693167",
+        "name": "انتشارات سوره مهر",
+        "name:en": "Sooreh Mehr Publication",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4108163,
+          35.7058261
+        ]
+      },
+      "id": "node/4679693167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881928",
+        "name": "کتاب فروشی جاوید",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3928485,
+          35.700805
+        ]
+      },
+      "id": "node/4679881928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881929",
+        "name": "بانک کتاب کاشفان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3929983,
+          35.7008102
+        ]
+      },
+      "id": "node/4679881929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881930",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3931646,
+          35.7008108
+        ]
+      },
+      "id": "node/4679881930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881931",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3933137,
+          35.7008158
+        ]
+      },
+      "id": "node/4679881931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881932",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3934765,
+          35.7008179
+        ]
+      },
+      "id": "node/4679881932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881933",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.393633,
+          35.7008223
+        ]
+      },
+      "id": "node/4679881933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881934",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.39381,
+          35.7008245
+        ]
+      },
+      "id": "node/4679881934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881935",
+        "name": "کتاب فروشی ملکان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3942392,
+          35.7005958
+        ]
+      },
+      "id": "node/4679881935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881936",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3941426,
+          35.7008332
+        ]
+      },
+      "id": "node/4679881936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881937",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3926176,
+          35.7007938
+        ]
+      },
+      "id": "node/4679881937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881938",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3924725,
+          35.7007881
+        ]
+      },
+      "id": "node/4679881938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881939",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3923327,
+          35.7007607
+        ]
+      },
+      "id": "node/4679881939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881940",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3921911,
+          35.7007148
+        ]
+      },
+      "id": "node/4679881940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679881941",
+        "addr:street": "انقلاب اسلامی",
+        "name": "انتشارات جیحون",
+        "name:en": "Jeihoon Publication",
+        "phone": "+98 21 6640 4532",
+        "shop": "books",
+        "website": "https://www.jeihoon.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3947765,
+          35.7008231
+        ]
+      },
+      "id": "node/4679881941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4700060815",
+        "name": "کتابفروشی حوض نقره",
+        "shop": "books",
+        "website": "https://howzenoghre.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4214241,
+          35.8023131
+        ]
+      },
+      "id": "node/4700060815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707473054",
+        "name": "کتابفروشی مهران",
+        "name:en": "Mehrān Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4350895,
+          35.7255236
+        ]
+      },
+      "id": "node/4707473054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4726092293",
+        "name": "بنیاد روایت",
+        "name:en": "Revayat",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4123163,
+          35.714916
+        ]
+      },
+      "id": "node/4726092293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739484747",
+        "addr:street": "انقلاب اسلامی",
+        "name": "کتاب فروشی افق",
+        "name:en": "Ofoq Book Store",
+        "phone": "+982166475882",
+        "shop": "books",
+        "website": "http://ofoqbook.blogfa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3992434,
+          35.7012792
+        ]
+      },
+      "id": "node/4739484747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739503252",
+        "addr:street": "انقلاب اسلامی",
+        "name": "انتشارات چتر",
+        "name:en": "Chatr Book Store",
+        "phone": "+98 21 6648 8182",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3949855,
+          35.700833
+        ]
+      },
+      "id": "node/4739503252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4747268797",
+        "name": "کتاب فروشی فخرآباد",
+        "name:en": "Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4373332,
+          35.6973824
+        ]
+      },
+      "id": "node/4747268797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4828594022",
+        "addr:street": "بلوار کشاورز",
+        "name": "کتاب فروشی فرهنگ",
+        "name:en": "Farhang Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4055513,
+          35.7109278
+        ]
+      },
+      "id": "node/4828594022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892833341",
+        "name": "کتابفروشی",
+        "name:en": "book city",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4597903,
+          35.7054898
+        ]
+      },
+      "id": "node/4892833341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4903902522",
+        "name": "کتابفروشی ۲۰۰۰",
+        "name:en": "2000 bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3941519,
+          35.7008781
+        ]
+      },
+      "id": "node/4903902522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4933914821",
+        "addr:street": "جمهوری اسلامی",
+        "name": "پارکر لطیفی",
+        "name:en": "Parker Latifi",
+        "opening_hours": "Sa-Th 09:00-14:00, 16:00-20:00",
+        "phone": "+98 21 6670 2832",
+        "shop": "books",
+        "website": "https://www.parkerlatifi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.417077,
+          35.6950322
+        ]
+      },
+      "id": "node/4933914821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986098322",
+        "operator": "منزل استاد معین",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3441939,
+          35.6915529
+        ]
+      },
+      "id": "node/4986098322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986098323",
+        "operator": "سازمان تبلیغات اسلامی",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4075956,
+          35.7167621
+        ]
+      },
+      "id": "node/4986098323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5036212024",
+        "name": "انتشارات مهرگان",
+        "name:en": "Mehregan publication",
+        "shop": "books",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4430957,
+          35.7654642
+        ]
+      },
+      "id": "node/5036212024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5071358422",
+        "name": "Metro",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3335258,
+          35.7011467
+        ]
+      },
+      "id": "node/5071358422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5133764150",
+        "contact:instagram": "https://www.instagram.com/shafagh_book_house/?hl=en",
+        "name": "خانه کتاب شفق",
+        "phone": "۸۸۵۶۶۲۲۰",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3695095,
+          35.7679543
+        ]
+      },
+      "id": "node/5133764150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5201609125",
+        "name": "电器批发街",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4226485,
+          35.689384
+        ]
+      },
+      "id": "node/5201609125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224209748",
+        "name": "انتشارات ثالث",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4194274,
+          35.7151109
+        ]
+      },
+      "id": "node/5224209748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5278650630",
+        "addr:city": "تهران",
+        "addr:country": "IR",
+        "addr:housenumber": "١٦٧١",
+        "addr:street": "دکتر علی شریعتی",
+        "email": "info@fereshtehbookcity.com",
+        "name": "شهرکتاب فرشته",
+        "name:en": "Fereshteh Bookcity Cafe",
+        "phone": "+982122607342",
+        "shop": "books",
+        "website": "https://fereshtehbookcity.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4363441,
+          35.7827604
+        ]
+      },
+      "id": "node/5278650630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296430724",
+        "name": "انتشارات حقوقى مجد",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3928668,
+          35.7000729
+        ]
+      },
+      "id": "node/5296430724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5426953022",
+        "name": "شهر کتاب ونک",
+        "name:en": "Vanak Book City",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4045776,
+          35.7591365
+        ]
+      },
+      "id": "node/5426953022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5449527621",
+        "name": "نعمتی",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2666566,
+          35.6690925
+        ]
+      },
+      "id": "node/5449527621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5508740521",
+        "name": "شهر کتاب",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4572197,
+          35.7631279
+        ]
+      },
+      "id": "node/5508740521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5529008123",
+        "name": "اندیشه سرا",
+        "name:en": "Andishehsara",
+        "opening_hours": "Sa-Th 09:00-14:00",
+        "phone": "+982166966925",
+        "shop": "books",
+        "source:name": "map.ir",
+        "website": "http://Andishehsara.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3904535,
+          35.7001251
+        ]
+      },
+      "id": "node/5529008123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5753230065",
+        "branch": "تهرانپارس",
+        "name": "شهر کتاب",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5324133,
+          35.739779
+        ]
+      },
+      "id": "node/5753230065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6070291590",
+        "name": "انتشارات حافظ",
+        "name:en": "hafez publication",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4753436,
+          35.7097428
+        ]
+      },
+      "id": "node/6070291590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6303858585",
+        "addr:street": "کریم خان زند",
+        "name": "مجتمع فرهنگی بنفشه (انتشارات قدیانی)",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4204987,
+          35.7151122
+        ]
+      },
+      "id": "node/6303858585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6311016930",
+        "name": "فروشگاه کتاب کودک و نوجوان",
+        "shop": "books",
+        "source:name": "map.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4311775,
+          35.753449
+        ]
+      },
+      "id": "node/6311016930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6385543494",
+        "name": "کتاب ایرانیان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2134185,
+          35.7513925
+        ]
+      },
+      "id": "node/6385543494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6415017179",
+        "name": "چاپ دوست",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4077423,
+          35.7106381
+        ]
+      },
+      "id": "node/6415017179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6717765020",
+        "addr:street": "کمان",
+        "name": "شرکت انتشارات علمی و فرهنگی",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4150353,
+          35.7569833
+        ]
+      },
+      "id": "node/6717765020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800744885",
+        "name": "لارستان",
+        "name:en": "Larestan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4138377,
+          35.723389
+        ]
+      },
+      "id": "node/6800744885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800745685",
+        "name": "کتابسرای تندیس",
+        "name:en": "Tandis",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4098127,
+          35.7231055
+        ]
+      },
+      "id": "node/6800745685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6823173887",
+        "internet_access": "wlan",
+        "name:en": "Beethoven Museum",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4160637,
+          35.7185203
+        ]
+      },
+      "id": "node/6823173887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6884171985",
+        "name": "فرحبخش",
+        "name:en": "Farahbakhsh",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4025732,
+          35.7234115
+        ]
+      },
+      "id": "node/6884171985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6920882516",
+        "name": "کانون فرهنگی نوجوانان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3623324,
+          35.7656499
+        ]
+      },
+      "id": "node/6920882516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7112086950",
+        "addr:city": "تهران",
+        "addr:housenumber": "43",
+        "addr:postcode": "1654636464",
+        "addr:street": "بلوار حجر بن عدی",
+        "disused:shop": "کتاب، لوازم تحریر، گیفت",
+        "internet_access": "no",
+        "name": "کتاب فروشی هوپا تهرانپارس",
+        "opening_hours": "Sa-Th 10:00-22:00, Fr 11:00-22:00",
+        "operator": "نشر هوپا",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+98 21 7770 5687",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5258886,
+          35.7277449
+        ]
+      },
+      "id": "node/7112086950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7158141840",
+        "name": "کتاب الهیه",
+        "name:en": "Ketab Elahiyeh",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.425271,
+          35.7874826
+        ]
+      },
+      "id": "node/7158141840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732386293",
+        "name": "انتشارات نگاه",
+        "phone": "+98 2166975707",
+        "shop": "books",
+        "website": "https://www.negahpub.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3970408,
+          35.7002345
+        ]
+      },
+      "id": "node/7732386293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732454552",
+        "name": "Shagerdavaliha",
+        "phone": "+98 2166479146",
+        "shop": "books",
+        "website": "https://www.shagerdavaliha.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3960448,
+          35.7004683
+        ]
+      },
+      "id": "node/7732454552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732467648",
+        "name": "بانک کتاب مارکا",
+        "phone": "+98 2166400400",
+        "shop": "books",
+        "website": "www.Markaketab.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3930784,
+          35.6995163
+        ]
+      },
+      "id": "node/7732467648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7739243622",
+        "addr:city": "تهران",
+        "addr:postcode": "0098",
+        "addr:street": "ایرانشهر",
+        "name": "نشر ایران بان",
+        "name:en": "Iranban Publication",
+        "opening_hours": "Sa-We 9:00-17:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4203382,
+          35.7019365
+        ]
+      },
+      "id": "node/7739243622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7828486095",
+        "addr:city": "تهران",
+        "addr:housenumber": "6",
+        "addr:postcode": "1719775381",
+        "addr:street": "محمدعلی درودیان",
+        "brand": "فروشگاه بوک دین",
+        "currency:IRR": "yes",
+        "email": "AMIRR177@GMAIL.COM",
+        "internet_access": "yes",
+        "name": "فروشگاه کتب حوزوی و معارفی بوک دین",
+        "not:name": "بوکدین;دین_بوک;دینبوک;بوکین",
+        "note": "فروش انواع کتب حوزوی و معارفی. درسی، شرح، تلخیص، نموداری، جزوه، و....",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "امیر رحمانی، محمد حسین رحمانی",
+        "payment:cards": "yes",
+        "phone": "+989354003968",
+        "shop": "books",
+        "website": "https://www.bookdin.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4534884,
+          35.6828527
+        ]
+      },
+      "id": "node/7828486095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7904245275",
+        "addr:city": "Tehran",
+        "addr:housenumber": "34",
+        "addr:street": "مینا",
+        "brand": "مهروماه",
+        "internet_access": "yes",
+        "name": "مهروماه",
+        "opening_hours": "Sa-Th 09:00-17:00",
+        "operator": "امیر انوشه",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3935249,
+          35.6965458
+        ]
+      },
+      "id": "node/7904245275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7984682060",
+        "addr:city": "تهران",
+        "addr:housenumber": "508",
+        "addr:postcode": "1314465134",
+        "addr:street": "انقلاب اسلامی",
+        "air_conditioning": "yes",
+        "baby_feeding": "yes",
+        "brand": "sweet english",
+        "image": "https://satel-eshop.ir/wp-content/uploads/2020/10/satel-sweet-english-top-edition-copy.webp",
+        "internet_access": "yes",
+        "mobile": "09365822141",
+        "name": "انتشارات ساتل",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "operator": "iman shahverdi",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "66412361",
+        "shop": "books",
+        "website": "https://satel-eshop.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3953164,
+          35.7008282
+        ]
+      },
+      "id": "node/7984682060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8033748007",
+        "addr:housenumber": "48",
+        "contact:instagram": "https://www.instagram.com/deybookstore",
+        "name": "کتابفروشی دی",
+        "name:en": "Dey Bookstore",
+        "opening_hours": "10:00-22:00",
+        "phone": "+21 888 66 744",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4194713,
+          35.7123942
+        ]
+      },
+      "id": "node/8033748007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8127921331",
+        "addr:city": "تهران",
+        "addr:housenumber": "3/1",
+        "addr:street": "میدان فاطمی، خیابان بیستون، کوچه دوم الف",
+        "name": "نشر هوپا",
+        "phone": "+98 21 8899 8630",
+        "shop": "books",
+        "website": "https://www.hoopa.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.404853,
+          35.7206015
+        ]
+      },
+      "id": "node/8127921331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8365199688",
+        "name": "بلوچ",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5198303,
+          35.7252773
+        ]
+      },
+      "id": "node/8365199688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8657148117",
+        "name": "شهر کتاب دروس",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4474036,
+          35.7737054
+        ]
+      },
+      "id": "node/8657148117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8659102217",
+        "name": "کتاب فروشی اسلامیه",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4272531,
+          35.6761616
+        ]
+      },
+      "id": "node/8659102217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8724189922",
+        "addr:city": "تهران",
+        "addr:housenumber": "17",
+        "addr:postcode": "1457886871",
+        "addr:street": "نیایش شرقی",
+        "name": "فروشگاه کتاب پزشکی رودگون",
+        "name:en": "Rodgoon Medical Book Store",
+        "opening_hours": "Th-Su 09:00-18:00",
+        "operator": "رودگون",
+        "phone": "+982166944051",
+        "shop": "books",
+        "website": "https://rodgoon.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3766022,
+          35.702629
+        ]
+      },
+      "id": "node/8724189922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8998191438",
+        "name": "انتشارات امیرکبیر",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3958972,
+          35.7007354
+        ]
+      },
+      "id": "node/8998191438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8998862459",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4001391,
+          35.7008809
+        ]
+      },
+      "id": "node/8998862459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8998866328",
+        "name": "انتشارات صدرا",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3998794,
+          35.7008797
+        ]
+      },
+      "id": "node/8998866328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9013180894",
+        "name": "شانزده",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4035009,
+          35.700984
+        ]
+      },
+      "id": "node/9013180894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9014694715",
+        "name": "ترجنستان سروش",
+        "shop": "books",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4014366,
+          35.7009169
+        ]
+      },
+      "id": "node/9014694715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9027778448",
+        "name": "کتابسرای وصال",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4003059,
+          35.7019436
+        ]
+      },
+      "id": "node/9027778448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9027781322",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4002239,
+          35.7021153
+        ]
+      },
+      "id": "node/9027781322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9031485147",
+        "contact:instagram": "https://www.instagram.com/hoopa_publication/",
+        "name": "هوپا",
+        "shop": "books",
+        "website": "https://www.hoopabooks.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4512103,
+          35.7632225
+        ]
+      },
+      "id": "node/9031485147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9038840284",
+        "branch": "دانشگاه",
+        "brand": "شهر کتاب",
+        "fixme": "دارای کافه و فروشگاه نوشت‌افزار، هدیه و آثار موسیقی نیز هست.",
+        "name": "شهر کتاب دانشگاه",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3978582,
+          35.7027226
+        ]
+      },
+      "id": "node/9038840284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9044000678",
+        "description": "onosm.org submitted note from a business: name: Ketab kade 27 phone: 02166641360 website: https://t.me/ketabkadeqalam twitter:  facebook:  email: Gomnam.ebrahim@gmail.com hours: Saturday-friday 9:00am -21:00pm category: Cards & Stationery address: Iran",
+        "email": "Gomnam.ebrahim@gmail.com",
+        "name": "کتاب‌کده ۲۷",
+        "name:en": "Ketab kade 27",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+98 21 6664 1360",
+        "shop": "books",
+        "website": "https://t.me/ketabkadeqalam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3593765,
+          35.6790659
+        ]
+      },
+      "id": "node/9044000678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9084585918",
+        "addr:city": "Tehran",
+        "addr:housenumber": "459",
+        "addr:street": "سید جمال‌الدین اسدآبادی",
+        "air_conditioning": "yes",
+        "brand": "Hoopa",
+        "currency:IRR": "yes",
+        "description": "فروشگاه هوپا یوسف‌آباد، پنجمین شعبه از فروشگاه‌های زنجیره‌ای نشر هوپا در تهران می‌باشد. این فروشگاه فعالیت خود را در شهریور سال 1400 آغاز کرده و علاوه بر بخش کتاب‌های کودکان و بزرگسالان، دارای قفسه‌ی تخصصی بازی، گیفت و لوازم‌التحریر نیز می‌باشد.",
+        "internet_access": "yes",
+        "name": "کتاب فروشی هوپا یوسف آباد",
+        "opening_hours:covid19": "Mo-Su 10:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+982188042569",
+        "shop": "books",
+        "website": "https://instagram.com/hoopa_yousefabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4050724,
+          35.7444699
+        ]
+      },
+      "id": "node/9084585918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9107873323",
+        "name": "کتاب نوک مدادی",
+        "opening_hours": "Mo-Th, Sa, Su 09:00-22:00",
+        "phone": "+982166345241",
+        "shop": "books",
+        "source": "note",
+        "website": "nok-medadi.ir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4099619,
+          35.701526
+        ]
+      },
+      "id": "node/9107873323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9169801752",
+        "contact:instagram": "30book",
+        "name": "۳۰بوک",
+        "name:en": "30book",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+98 21 6649 4109",
+        "shop": "books",
+        "website": "https://www.30book.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4745373,
+          35.7684562
+        ]
+      },
+      "id": "node/9169801752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9180047080",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.399017,
+          35.7012923
+        ]
+      },
+      "id": "node/9180047080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9202905818",
+        "name": "شهر کتاب",
+        "name:en": "Book City",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4505348,
+          35.761646
+        ]
+      },
+      "id": "node/9202905818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9310642840",
+        "addr:city": "تهران",
+        "addr:housenumber": "9",
+        "addr:postcode": "1998613186",
+        "addr:street": "میدان حسن طهرانی مقدم پاسژ کسری کتابسرا کلک",
+        "name": "کتابفروشی / کتابسرای کلک",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "امیر نظری",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+98 21 2206 2626",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3751791,
+          35.7824469
+        ]
+      },
+      "id": "node/9310642840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349112417",
+        "addr:housenumber": "3",
+        "contact:instagram": "https://www.instagram.com/minabookcity/",
+        "name": "شهر کتاب مینا",
+        "opening_hours": "09:00-22:00",
+        "phone": "+98 21 2222 0157",
+        "shop": "books",
+        "website": "https://shahreketabonline.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4417183,
+          35.762618
+        ]
+      },
+      "id": "node/9349112417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9452112340",
+        "addr:city": "تهران",
+        "addr:housenumber": "17",
+        "addr:street": "حاج نائب",
+        "name": "انتشارات صبا",
+        "phone": "+98 21 3311 9955",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4232429,
+          35.6802753
+        ]
+      },
+      "id": "node/9452112340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9517929112",
+        "addr:city": "Tehran",
+        "addr:housenumber": "94",
+        "addr:street": "ابوریحان",
+        "name": "انتشارات حکمت",
+        "name:en": "Hekmat Publication",
+        "phone": "+98 21 6646 1292",
+        "shop": "books",
+        "website": "https://www.hekmat-ins.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4003396,
+          35.7008306
+        ]
+      },
+      "id": "node/9517929112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9683550917",
+        "name": "شهر کتاب منظریه",
+        "phone": "+98 21 2255 7274",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4573218,
+          35.7897276
+        ]
+      },
+      "id": "node/9683550917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9723577419",
+        "name": "فرهنگان قریب",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.383238,
+          35.7046839
+        ]
+      },
+      "id": "node/9723577419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9890057453",
+        "name": "بازار ایران",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3891176,
+          35.7007587
+        ]
+      },
+      "id": "node/9890057453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9935864865",
+        "addr:city": "تهران",
+        "addr:housenumber": "1274",
+        "addr:street": "انقلاب اسلامی",
+        "name": "کتابفروشی انتشارات بیدگل",
+        "name:en": "Bidgol Bookstore",
+        "name:fa": "کتابفروشی انتشارات بیدگل",
+        "operator": "نشر بيدگل",
+        "operator:en": "Bidgol Publishing",
+        "operator:fa": "نشر بيدگل",
+        "operator:wikidata": "Q113459001",
+        "shop": "books",
+        "website": "http://bidgol.ir/Default.aspx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3955597,
+          35.7007517
+        ]
+      },
+      "id": "node/9935864865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945666271",
+        "addr:housenumber": "92",
+        "addr:street": "ابوریحان",
+        "name": "نشر سینا",
+        "name:en": "Sina Publication",
+        "phone": "+98 21 6641 5879",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4003363,
+          35.7007612
+        ]
+      },
+      "id": "node/9945666271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10004169956",
+        "name": "انتشارات البرز فرجاد",
+        "public": "yes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4460297,
+          35.7427734
+        ]
+      },
+      "id": "node/10004169956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10020440260",
+        "addr:city": "تهران",
+        "addr:housenumber": "38",
+        "addr:street": "رشتچی",
+        "name": "انتشارات پیام مشرق",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+98 21 6657 4457",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3889658,
+          35.6997342
+        ]
+      },
+      "id": "node/10020440260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10087694464",
+        "name": "فروشگاه کانون پرورشی فکری کودکان و نوجوانان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4149047,
+          35.7293927
+        ]
+      },
+      "id": "node/10087694464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10114203149",
+        "books": "copyshop",
+        "name": "انتشارات فرهنگ معاصر",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4005567,
+          35.705075
+        ]
+      },
+      "id": "node/10114203149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10147437585",
+        "name": "Kharazmi Publishing Co.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3958671,
+          35.7007804
+        ]
+      },
+      "id": "node/10147437585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10869065096",
+        "branch": "الفدیر",
+        "brand": "شهر کتاب",
+        "shop": "books",
+        "source": "Note 3544464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2889017,
+          35.7515571
+        ]
+      },
+      "id": "node/10869065096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10966065624",
+        "alt_name": "کتابکده ۲۷",
+        "contact:telegram": "kotob_tarikhi",
+        "name": "کتاب کده ۲۷",
+        "phone": "021 66964071",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4040471,
+          35.7019309
+        ]
+      },
+      "id": "node/10966065624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10989914401",
+        "addr:street": "سیدمصطفی دعوتی",
+        "name": "شهر کتاب هفت چنار",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3726782,
+          35.6748316
+        ]
+      },
+      "id": "node/10989914401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212469150",
+        "name": "کتابستان",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.395745,
+          35.7007495
+        ]
+      },
+      "id": "node/11212469150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212488146",
+        "name": "انتشارات صریر",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3957145,
+          35.7007767
+        ]
+      },
+      "id": "node/11212488146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11335465633",
+        "name": "انتشارات تیمورپور",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3937464,
+          35.7008257
+        ]
+      },
+      "id": "node/11335465633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403869117",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4342861,
+          35.5849101
+        ]
+      },
+      "id": "node/11403869117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11478500326",
+        "name": "بوکلند",
+        "name:en": "BookLand",
+        "opening_hours": "09:00-21:00",
+        "phone": "+982126455546",
+        "shop": "books",
+        "website": "https://avaplatt.com/store/%d8%a8%d9%88%da%a9%d9%84%d9%86%d8%af/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4764446,
+          35.8050213
+        ]
+      },
+      "id": "node/11478500326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11504417917",
+        "name": "Asabook",
+        "shop": "books",
+        "website": "https://asabook.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.397159,
+          35.7008592
+        ]
+      },
+      "id": "node/11504417917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11618352145",
+        "name": "انتشارات گیلنا",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3887979,
+          35.7006451
+        ]
+      },
+      "id": "node/11618352145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11676105625",
+        "name": "فرهنگان فرشته",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4255922,
+          35.7873104
+        ]
+      },
+      "id": "node/11676105625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11754510669",
+        "name": "کتاب دیدار",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4652787,
+          35.7765603
+        ]
+      },
+      "id": "node/11754510669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891161804",
+        "addr:city": "تهران",
+        "addr:housenumber": "7",
+        "addr:street": "ادوارد براون",
+        "name": "کتاب دماوند",
+        "name:en": "Damavand Book Store",
+        "operator": "بهمن دارالشفایی",
+        "phone": "+98 21 66 98 1024",
+        "shop": "books",
+        "website": "https://ketabedamavand.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3924483,
+          35.7031188
+        ]
+      },
+      "id": "node/11891161804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11969107190",
+        "addr:city": "شهر تهران",
+        "addr:housenumber": "58",
+        "addr:postcode": "1314744518",
+        "addr:street": "شهدای ژاندارمری",
+        "books": "adults",
+        "internet_access": "no",
+        "name": "Noavar Publication",
+        "name:fa": "انتشارات نوآور",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "Noavar Publication",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+9866484191",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3976899,
+          35.7000114
+        ]
+      },
+      "id": "node/11969107190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12067719839",
+        "addr:city": "تهران",
+        "addr:housenumber": "158",
+        "addr:postcode": "1314755571",
+        "addr:street": "دانشگاه",
+        "email": "info@prometheepub.com",
+        "level": "-1",
+        "mobile": "+9893501503202",
+        "name": "انتشارات اسطورۀ پرومته",
+        "note": "https://www.instagram.com/prometheepub/",
+        "opening_hours": "sat-thu 09:00-17:00",
+        "phone": "+982166958378",
+        "shop": "books",
+        "website": "https://promethepub.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3979383,
+          35.7002162
+        ]
+      },
+      "id": "node/12067719839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12092197969",
+        "name": "کتاب دیدار",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4535623,
+          35.7715159
+        ]
+      },
+      "id": "node/12092197969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12098791317",
+        "addr:city": "تهران",
+        "addr:housenumber": "129",
+        "addr:postcode": "1314654531",
+        "addr:street": "شهدای ژاندارمری",
+        "contact:instagram": "novinbook",
+        "name": "کتاب نوین",
+        "name:en": "Novin Books",
+        "name:fa": "کتاب نوین",
+        "opening_hours": "Sa-Th 08:30-18:00",
+        "phone": "+98 21 6647 8249",
+        "shop": "books",
+        "source": "Note 4211522",
+        "website": "https://www.novinbook.net",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3918769,
+          35.7000047
+        ]
+      },
+      "id": "node/12098791317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12115216787",
+        "name": "کاف کتاب",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4106477,
+          35.7533632
+        ]
+      },
+      "id": "node/12115216787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12182052021",
+        "contact:website": "https://eitaa.com/kotob_tarikhi",
+        "name": "کتاب اندیشه (حافظه تاریخی ایرانی)",
+        "phone": "021 66175670",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3963594,
+          35.7008376
+        ]
+      },
+      "id": "node/12182052021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12469651046",
+        "addr:city": "تهران",
+        "addr:street": "شهدای ژاندارمری",
+        "name": "انتشارات آثار برات",
+        "opening_hours": "Mo-Su 08:30-20:00",
+        "operator": "ناصر آقا براتی",
+        "phone": "+98 21 6697 5501",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3939797,
+          35.6998679
+        ]
+      },
+      "id": "node/12469651046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12477800348",
+        "name": "شهرکتاب بهمن",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3997137,
+          35.6471152
+        ]
+      },
+      "id": "node/12477800348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492940156",
+        "name": "لوازم التحریر",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4020223,
+          35.6394091
+        ]
+      },
+      "id": "node/12492940156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492942569",
+        "name": "لادن لوازم التحریر",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4029234,
+          35.6394385
+        ]
+      },
+      "id": "node/12492942569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12548511335",
+        "books": "copyshop",
+        "name": "انتشارات شباهنگ",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3946034,
+          35.6998005
+        ]
+      },
+      "id": "node/12548511335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12549205907",
+        "addr:housenumber": "2",
+        "addr:street": "چهارم",
+        "branch": "کارگر",
+        "brand": "نشر چشمه",
+        "name": "نشر چشمه",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3914496,
+          35.7228744
+        ]
+      },
+      "id": "node/12549205907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12600882784",
+        "name": "خانه کتاب کوبوک",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3949046,
+          35.7682044
+        ]
+      },
+      "id": "node/12600882784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12611350633",
+        "addr:city": "تهران",
+        "addr:postcode": "0098",
+        "addr:street": "میدان فردوسی",
+        "air_conditioning": "yes",
+        "books": "religion;adults;children;textbook;تاریخی;دانشگاهی;نظامی;academic",
+        "currency:IRR": "yes",
+        "description": "فروشگاه انتشارات دانشگاه جامع امام حسین علیه السلام کتابهای علمی، نظامی و فرهنگی را به فروش می رسامد",
+        "email": "ihu.books@dmail.com",
+        "internet_access": "yes",
+        "name": "فروشگاه انتشارات دانشگاه جامع امام حسین علیه السلام",
+        "opening_hours": "sa-th 09:00-20:00",
+        "operator": "دانشگاه جامع امام حسین علیه السلام",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "00982188839297",
+        "shop": "books",
+        "website": "https://book.ihu.ac.ir/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4195941,
+          35.7019733
+        ]
+      },
+      "id": "node/12611350633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12703223266",
+        "addr:city": "تهران",
+        "addr:housenumber": "10",
+        "addr:street": "بهشت آئین",
+        "books": "copyshop",
+        "name": "انتشارات نیلاب زبان گستر",
+        "office": "company",
+        "phone": "02166174087",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.394351,
+          35.6976128
+        ]
+      },
+      "id": "node/12703223266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12704130746",
+        "name": "فروشگاه کتاب همراهان دانش",
+        "opening_hours": "11:00-19:00",
+        "phone": "02166481587",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.395365,
+          35.7002991
+        ]
+      },
+      "id": "node/12704130746"
+    }
+  ]
+}

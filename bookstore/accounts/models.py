@@ -11,3 +11,4 @@ class CustomUser(AbstractUser):
     )
     user_type = models.CharField(max_length=10, choices=USER_TYPE_CHOICES)
     balance = models.DecimalField(max_digits=10, decimal_places=2, default=100000)
+    location = models.PointField(geography=True, null=False, blank=False)

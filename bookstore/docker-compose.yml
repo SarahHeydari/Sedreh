@@ -15,11 +15,26 @@ services:
     build: .
     volumes:
       - .:/bookstore
-      - ./media:/media
+      - ./media:/media/media
     depends_on:
       - db
     networks:
       - backend
+
+
+  geoserver:
+    image: kartoza/geoserver
+    restart: always
+    environment:
+      - GEOSERVER_ADMIN_USER=admin
+      - GEOSERVER_ADMIN_PASSWORD=geoserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - backend
+
 
 
   nginx:
@@ -36,3 +51,4 @@ services:
       - backend
 networks:
   backend:
+

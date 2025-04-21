@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ["*"]
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.gis',
+    'leaflet',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -91,7 +92,7 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'heydari_database',
         'USER': 'sara_heydari',
         'PASSWORD': 'sa50558094',

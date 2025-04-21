@@ -1,5 +1,7 @@
 from django.contrib import admin
 from .models import Book, Purchase
+from leaflet.admin import LeafletGeoAdmin # ino baraye admin gozashteh bodam
+from .models import County
 
 # Register your models here.
 
