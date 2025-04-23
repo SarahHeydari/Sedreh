@@ -13,9 +13,12 @@ services:
 
   web:
     build: .
+    ports:
+      - "8000:8000"
     volumes:
       - .:/bookstore
       - ./media:/media/media
+      - ./shared:/shared
     depends_on:
       - db
     networks:
@@ -28,14 +31,14 @@ services:
     environment:
       - GEOSERVER_ADMIN_USER=admin
       - GEOSERVER_ADMIN_PASSWORD=geoserver
+    volumes:
+       - ./shared:/shared
     ports:
       - "8080:8080"
     depends_on:
       - db
     networks:
       - backend
-
-
 
   nginx:
     image: nginx:latest

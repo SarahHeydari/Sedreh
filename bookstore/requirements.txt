@@ -1,4 +1,6 @@
 asgiref==3.8.1
+certifi==2025.1.31
+charset-normalizer==3.4.1
 Django==5.1.6
 django-filter==24.3
 django-leaflet==0.31.0
@@ -6,11 +8,17 @@ djangorestframework==3.15.2
 djangorestframework-gis==1.1
 djangorestframework_simplejwt==5.5.0
 geojson==3.2.0
+geoserver-rest==2.9.1
 gunicorn==19.9.0
+idna==3.10
 pillow==11.1.0
 psycopg==3.2.6
 psycopg2-binary==2.9.10
+Pygments==2.19.1
 PyJWT==2.9.0
+requests==2.32.3
 sqlparse==0.5.3
 typing_extensions==4.13.2
 tzdata==2025.1
+urllib3==2.4.0
+xmltodict==0.14.2

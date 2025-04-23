@@ -32,6 +32,7 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('books/', include('books.urls')),
     path('', index, name='home'),
+    path('geoserver_app/', include('geoserver_app.urls')),
 
 
 ]

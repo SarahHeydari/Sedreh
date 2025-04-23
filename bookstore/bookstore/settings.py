@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'accounts',
     'books',
+    'geoserver_app',
 ]
 # sara --->JWT
 REST_FRAMEWORK = {
@@ -149,6 +150,14 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+# NGINX public URL to serve uploaded files
+NGINX_STATIC_URL = "http://localhost"  # Or docker internal URL, e.g., http://nginx:80
+
+# GeoServer REST settings
+GEOSERVER_REST_URL = "http://nginx/geoserver/rest"
+GEOSERVER_USERNAME = "admin"
+GEOSERVER_PASSWORD = "geoserver"
+GEOSERVER_SHARED_DIR = '/shared'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 

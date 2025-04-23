@@ -7,9 +7,13 @@ from django.contrib.auth import get_user_model
 from .serializers import RegisterSerializer, UserProfileSerializer
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
-from books.models import Purchase, Bookshop
+from books.models import Purchase, Bookshop, Book
 from books.serializers import BookSerializer
 from django.contrib.gis.db.models.functions import Distance
+
+
+#--------------------------
+from rest_framework import status
 
 User = get_user_model()
 
@@ -101,3 +105,31 @@ class NearestBookshopsView(APIView):
 
 class CustomLoginView(TokenObtainPairView):
     serializer_class = TokenObtainPairSerializer
+
+
+
+
+
+
+# #-----------------------
+# class ReturnBookView(APIView):
+#     permission_classes = [IsAuthenticated]
+#
+#     def post(self, request):
+#         user = request.user
+#         book_id = request.data.get("book_id")
+#
+#         if not book_id:
+#             return Response({"error": "book_id is required."}, status=status.HTTP_400_BAD_REQUEST)
+#
+#         try:
+#             book = Book.objects.get(id=book_id)
+#         except Book.DoesNotExist:
+#             return Response({"error": "Book not found."}, status=status.HTTP_404_NOT_FOUND)
+#
+#         try:
+#             purchase = Purchase.objects.get(user=user, book=book)
+#             purchase.delete()
+#             return Response({"message": f"You have successfully returned '{book.title}'."})
+#         except Purchase.DoesNotExist:
+#             return Response({"error": "You have not purchased this book."}, status=status.HTTP_400_BAD_REQUEST)
