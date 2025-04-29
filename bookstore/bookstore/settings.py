@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os  # sara --->
+from datetime import timedelta  # sara ---> set JWT expiration time access token , refresh token
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -29,7 +31,7 @@ ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
-# sara ---> accounts , books , rest_framework , rest_framework_simplejwt ,django.contrib.gis
+# sara ---> accounts , books , rest_framework , rest_framework_simplejwt ,django.contrib.gis ,minio_storage
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.gis',
@@ -44,6 +46,7 @@ INSTALLED_APPS = [
     'accounts',
     'books',
     'geoserver_app',
+
 ]
 # sara --->JWT
 REST_FRAMEWORK = {
@@ -54,6 +57,12 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ),
 }
+# sara --->JWT -- expiration time
+SIMPLE_JWT = {
+
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=2),  #  Access Token
+    'REFRESH_TOKEN_LIFETIME': timedelta(hours=2),  # Refresh Token
+    }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -153,12 +162,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # NGINX public URL to serve uploaded files
 NGINX_STATIC_URL = "http://localhost"  # Or docker internal URL, e.g., http://nginx:80
 
-# GeoServer REST settings
-GEOSERVER_REST_URL = "http://nginx/geoserver/rest"
-GEOSERVER_USERNAME = "admin"
-GEOSERVER_PASSWORD = "geoserver"
-GEOSERVER_SHARED_DIR = '/shared'
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

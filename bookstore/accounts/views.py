@@ -11,7 +11,6 @@ from books.models import Purchase, Bookshop, Book
 from books.serializers import BookSerializer
 from django.contrib.gis.db.models.functions import Distance
 
-
 #--------------------------
 from rest_framework import status
 

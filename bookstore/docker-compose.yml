@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: registry.sedrehgroup.ir/postgis:latest
@@ -11,6 +9,23 @@ services:
     networks:
       - backend
 
+  minio:
+    image: registry.sedrehgroup.ir/minio:latest
+    env_file:
+      - .env
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+
+      - ./minio_backup:/data
+    command: server /data --console-address ":9001"
+    networks:
+      - backend
+
+
+
   web:
     build: .
     ports:
@@ -19,18 +34,21 @@ services:
       - .:/bookstore
       - ./media:/media/media
       - ./shared:/shared
+      - ./minio_backup:/minio_backup/data
+    env_file:
+      - .env
     depends_on:
       - db
+      - minio
     networks:
       - backend
 
 
   geoserver:
-    image: kartoza/geoserver
+    image: registry.sedrehgroup.ir/geoserver:2.24.2
+    env_file:
+      - .env
     restart: always
-    environment:
-      - GEOSERVER_ADMIN_USER=admin
-      - GEOSERVER_ADMIN_PASSWORD=geoserver
     volumes:
        - ./shared:/shared
     ports:
@@ -41,7 +59,10 @@ services:
       - backend
 
   nginx:
-    image: nginx:latest
+    image: registry.sedrehgroup.ir/nginx:latest
+    container_name: nginx
+    env_file:
+      - .env
     ports:
       - "80:80"
     volumes:
@@ -55,3 +76,6 @@ services:
 networks:
   backend:
 
+#networks:
+#  main:
+#    driver: bridge
